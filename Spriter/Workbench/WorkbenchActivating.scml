@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0">
+        <file id="0" name="TableLegs.PNG" width="173" height="57" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="TableTop.PNG" width="195" height="70" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Anvil.png" width="81" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="AnvilShadow.png" width="57" height="12" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Hammer.png" width="54" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="HammerShadow.png" width="64" height="14" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="PressurizerBack.png" width="56" height="59" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="PressurizerHandle.png" width="38" height="54" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="0" z_index="7"/>
+                </key>
+                <key id="1" time="384">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="1" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="1" z_index="7"/>
+                </key>
+                <key id="2" time="480">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="2" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="2" z_index="6"/>
+                    <object_ref id="7" timeline="7" key="2" z_index="7"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="TableLegs">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-82.285714" y="5.678571"/>
+                </key>
+                <key id="1" time="480" spin="0">
+                    <object folder="0" file="0" x="-82.285714" y="5.678571"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="TableTop">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-92.214286" y="58.267857"/>
+                </key>
+                <key id="1" time="384" spin="0">
+                    <object folder="0" file="1" x="-92.214286" y="66.416005"/>
+                </key>
+                <key id="2" time="480" spin="0">
+                    <object folder="0" file="1" x="-92.214286" y="63.144315"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Anvil">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-4.464286" y="88.392857"/>
+                </key>
+                <key id="1" time="384" spin="0">
+                    <object folder="0" file="2" x="-3.9118" y="96.68015"/>
+                </key>
+                <key id="2" time="480" spin="0">
+                    <object folder="0" file="2" x="-3.94633" y="93.399763"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="AnvilShadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="11.160714" y="45.982143"/>
+                </key>
+                <key id="1" time="384" spin="0">
+                    <object folder="0" file="3" x="11.7132" y="54.269436"/>
+                </key>
+                <key id="2" time="480" spin="0">
+                    <object folder="0" file="3" x="11.67867" y="50.989049"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="Hammer">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-66.964286" y="68.303571"/>
+                </key>
+                <key id="1" time="384" spin="0">
+                    <object folder="0" file="4" x="-66.4118" y="76.590864"/>
+                </key>
+                <key id="2" time="480" spin="0">
+                    <object folder="0" file="4" x="-66.44633" y="73.310478"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="HammerShadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-71.428571" y="47.321429"/>
+                </key>
+                <key id="1" time="384" spin="0">
+                    <object folder="0" file="5" x="-70.876085" y="55.608721"/>
+                </key>
+                <key id="2" time="480" spin="0">
+                    <object folder="0" file="5" x="-70.910616" y="52.328335"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="PressurizerBack">
+                <key id="0">
+                    <object folder="0" file="6" x="-25" y="37.053571"/>
+                </key>
+                <key id="1" time="384">
+                    <object folder="0" file="6" x="-25" y="43.130919" angle="0"/>
+                </key>
+                <key id="2" time="480" spin="0">
+                    <object folder="0" file="6" x="-25" y="39.988654"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="PressurizerHandle">
+                <key id="0" spin="-1">
+                    <object folder="0" file="7" x="2.678571" y="20.089286"/>
+                </key>
+                <key id="1" time="384">
+                    <object folder="0" file="7" x="9.345238" y="28.388856" angle="292.807309"/>
+                </key>
+                <key id="2" time="480">
+                    <object folder="0" file="7" x="8.928571" y="25.107702" angle="300.9485"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
